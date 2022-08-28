@@ -1,0 +1,53 @@
+body{
+    margin:0;
+    padding:0;
+    background:#B03A2E;
+    height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.wrapper{
+    width:400px;
+    height:200px;
+    background:#E74C3C;
+    border-radius:20px;
+    position:relative;
+
+}
+h1{
+text-align:center;
+color:#F1948A;
+}
+.log{
+position:relative;
+left:40px;
+
+}
+
+.log input{
+    width:250px;
+    height:35px;
+    border-radius:50px;
+    outline:none;
+    border:none;
+    padding-left:10px;
+    padding-right: 50px;
+}
+.log button{
+    width:25px;
+    height:25px;
+    border-radius:50px;
+    outline:none;
+    background:#5DADE2;
+    border:0;
+    position:relative;
+    right:35px;
+    cursor:pointer;
+}
+
+.log button:hover{
+    opacity:.8;
+}
